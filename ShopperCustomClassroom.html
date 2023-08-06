@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopper Custom Classroom</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: Arial;
+        }
+        footer{
+            display: grid;
+            grid-template-columns:6fr 6fr ;
+            background-color: black;
+            color: white;
+            padding: 10px;
+            
+        }
+        .left-panel-footer{
+            display: grid;
+            grid-template-columns:1.5fr 1.5fr 1.5fr 1.5fr ;
+        }
+        .right-panel-footer{
+            border-left: dotted 1px white;
+            display: grid;
+            grid-template-columns: 2fr 3fr 1fr;
+        }
+        header{
+            background-color: black;
+            color: white;
+            padding: 14px;
+            font-size: 24px;
+            display: flex;
+            justify-content: space-between;
+
+        }
+        section{
+            /* margin-top: 5px; */
+            /* border-top: solid rgb(121, 116, 116) 15px; */
+            height:450px;
+            display: grid;
+            grid-template-columns:3fr 9fr ;
+        }
+        .header-left{
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .header-center span{
+            margin-right: 20px;    
+        }
+        .header-center span:hover{
+            background-color:white;
+            color: black;
+        }
+        .header-right span{
+            margin-right: 20px;
+        }
+          .nav-main div{
+            background-color: black;
+            color: white;
+            font-size: 18px;
+            margin-bottom: 20px;
+            margin-top: 5px;
+            padding: 10px;
+            width: 120px;
+            border-radius: 25px;
+            
+        }
+        section nav{
+            background-color:rgba(160, 36, 36, 0.582);
+            padding: 10px;
+            
+        }
+        main{
+            background-color:rgba(107, 33, 33, 0.781);
+            font-size: 20px;
+                      
+        }
+        
+        .main-center{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+             /* text-align: center; */
+             /* height: 400px; */
+        }
+        nav div:hover{
+            background-color: rgb(255, 209, 2);
+            color: black;
+        }
+        nav div:target{
+            background-color: rgb(255, 209, 2);
+            color: black;
+        }
+        .social span:hover{
+
+            background-color: rgb(15, 255, 15);
+            color: black;
+        }
+        .social span{
+            margin-right: 5px;
+            color: rgb(255, 254, 254);
+        }
+        .sticky{
+            display: flex;
+            justify-content: center;
+            align-items: end;
+        }
+        .header-right span:hover{
+            background-color:white;
+            color: rgb(0, 0, 0);
+        }
+        nav a{
+            text-decoration: none;
+        }
+        article{
+            text-align: center;
+            background-color:gray;
+            padding: 5px;
+            color: white;
+            font-family: Arial;
+            font-weight: bold;
+        }
+        .bi-lightning-fill{
+            color: rgb(255, 183, 1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-left">
+           <span>Shopper.</span>
+        </div>
+        <div class="header-center">
+          <nav>
+            <span class="bi bi-house-fill">Home</span>
+            <span class="bi bi-shop">Shop</span>
+            <span class="bi bi-music-note">Catalogs</span>
+            <span class="bi bi-markdown">Blog</span>
+            <span class="bi bi-moon-stars">pages</span>
+            <span class="bi bi-moon">Docs</span>
+          </nav>
+        </div>
+        <div class="header-right">
+            <span class="bi bi-search"></span>
+            <span class="bi bi-person"></span>
+            <span class="bi bi-heart"></span>
+            <span class="bi bi-cart4"></span>
+        </div>
+    </header>
+    <div>
+        <article><span class="bi bi-lightning-fill"></span>
+        <span>HAPPY HOLIDAY DEALS ON EVERYTHINGS</span><span class="bi bi-lightning-fill"></span></article>
+    </div>
+    <section>
+     
+            <nav class="nav-main"> 
+               <a href="ShopperHome.html" target="framebody"><div>Home</div></a>
+               <a href="ShopperKids.html" target="framebody"><div>Kids</div></a>
+               <a href="ShopperMens.html" target="framebody"><div>Mens</div></a>
+               <a href="ShopperWomens.html" target="framebody"><div>Womens</div></a>
+               <a href="ShopperSports.html" target="framebody"><div>Sports</div></a>
+            </nav>
+            <main>
+            <iframe name="framebody" width="1150px" height="450px"></iframe>
+            </main>
+    </section>
+    <!-- <span class="bi bi-award"></span> -->
+    <footer>
+        <div class="left-panel-footer">
+            <div>
+                <div class="title"><h3>About</h3></div>
+                <div>Contact Us</div>
+                <div>About Us</div>
+                <div>Careers</div>
+                <div>Shopper Stories</div>
+                <div>press</div>
+                <div>Shopper Wholesale</div>
+                <div>Corporate Information</div>
+            </div>
+            <div>
+                <div class="Help"><h3>Help</h3></div>
+                <div>Contact Us</div>
+                <div>About Us</div>
+                <div>Careers</div>
+            </div>
+            <div>
+                <div class="Policy"><h3>Policy</h3></div>
+                <div>Contact Us</div>
+                <div>About Us</div>
+                <div>Careers</div>
+            </div>            
+            <div>
+                <div class="Social"><h3>Social</h3></div>
+                <div>Contact Us</div>
+                <div>About Us</div>
+                <div>Careers</div>
+            </div>            
+        </div>
+        <div class="right-panel-footer">
+            <div>
+                <div class="Mail"><h3>&nbsp;&nbsp;&nbsp;&nbsp;Mail Us</h3></div>
+                <div>&nbsp;&nbsp;&nbsp;&nbsp;info@theShopperindia.in</div>
+            </div>
+            <div>
+                <div class="address"><h3>Registered Office Address</h3></div>
+                <div>Shopper INDIA Pvt Ltd in Badu, Kolkata is known to satisfactorily cater to the demands of its customer base. It stands located at 312, Sree Balaji Business Park, Badu Road, Badu-700128.</div>
+            </div>
+            <div class="sticky">
+            <nav class="social">
+                <span class="bi bi-facebook"></span>
+                <span class="bi bi-twitter"></span>
+                <span class="bi bi-youtube"></span>
+                <span class="bi bi-skype"></span>
+            </nav>
+            </div>
+            
+        </div>
+    </footer>
+</body>
+</html>  
