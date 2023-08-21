@@ -55,8 +55,9 @@
             margin-right: 20px;    
         }
         .header-center span:hover{
-            background-color:white;
-            color: black;
+            background-color:rgb(165, 154, 0);
+            color: rgb(255, 255, 255);
+            padding: 5px;
         }
         .header-right span{
             margin-right: 20px;
@@ -64,10 +65,10 @@
           .nav-main div{
             background-color: black;
             color: white;
-            font-size: 18px;
+            font-size: 16px;
             margin-bottom: 20px;
             margin-top: 5px;
-            padding: 10px;
+            padding: 15px;
             width: 120px;
             border-radius: 25px;
             
@@ -91,8 +92,9 @@
              /* height: 400px; */
         }
         nav div:hover{
-            background-color: rgb(255, 209, 2);
-            color: black;
+            background-color: rgb(255, 255, 255);
+            color:black;
+            font-weight: bold;
         }
         nav div:target{
             background-color: rgb(255, 209, 2);
@@ -100,8 +102,8 @@
         }
         .social span:hover{
 
-            background-color: rgb(15, 255, 15);
-            color: black;
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
         }
         .social span{
             margin-right: 5px;
@@ -130,6 +132,9 @@
         .bi-lightning-fill{
             color: rgb(255, 183, 1);
         }
+        a:visited{
+            color: white;
+        }
     </style>
 </head>
 <body>
@@ -139,12 +144,12 @@
         </div>
         <div class="header-center">
           <nav>
-            <span class="bi bi-house-fill">Home</span>
-            <span class="bi bi-shop">Shop</span>
-            <span class="bi bi-music-note">Catalogs</span>
+            <span class="bi bi-house-fill"><a href="./ShopperHome.html " target="framebody">Home</a></span>
+            <span class="bi bi-globe2"><a href="./TheSportsNation.html" target="_parent">SNweb</a></span>
+            <span class="bi bi-cart-check">Cart</span>
             <span class="bi bi-markdown">Blog</span>
-            <span class="bi bi-moon-stars">pages</span>
-            <span class="bi bi-moon">Docs</span>
+            <span class="bi bi-book-half">pages</span>
+            <span class="bi bi-cloud-download">Docs</span>
           </nav>
         </div>
         <div class="header-right">
@@ -161,14 +166,15 @@
     <section>
      
             <nav class="nav-main"> 
-               <a href="ShopperHome.html" target="framebody"><div>Home</div></a>
-               <a href="ShopperKids.html" target="framebody"><div>Kids</div></a>
-               <a href="ShopperMens.html" target="framebody"><div>Mens</div></a>
-               <a href="ShopperWomens.html" target="framebody"><div>Womens</div></a>
-               <a href="ShopperSports.html" target="framebody"><div>Sports</div></a>
+               <a href="ShopperHome.html" target="framebody"><div><span class="bi bi-house"></span> Home</div></a>
+               <a href="ShopperKids.html" target="framebody"><div><span class="bi bi-person"></span> Kids</div></a>
+               <a href="ShopperMens.html" target="framebody"><div><span class="bi bi-person-circle"></span> Mens</div></a>
+               <a href="ShopperWomens.html" target="framebody"><div><span class="bi bi-person-fill"></span> Womens</div></a>
+               <a href="ShopperSports.html" target="framebody"><div><span class="bi bi-dribbble"></span> Sports</div></a>
+               <a href="TheSportsNation.html" target="_parent"><div class="sportsnation"><span class="bi bi-globe-americas"></span> Sports Nation</div></a>
             </nav>
             <main>
-            <iframe name="framebody" width="1150px" height="450px"></iframe>
+            <iframe name="framebody" src="./ShopperHome.html" width="1180px" height="450px"></iframe>
             </main>
     </section>
     <!-- <span class="bi bi-award"></span> -->
