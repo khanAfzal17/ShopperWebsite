@@ -19,7 +19,7 @@
             grid-template-columns:6fr 6fr ;
             background-color: black;
             color: white;
-            padding: 10px;
+            padding: 5px;
             
         }
         .left-panel-footer{
@@ -34,7 +34,7 @@
         header{
             background-color: black;
             color: white;
-            padding: 14px;
+            padding: 10px;
             font-size: 24px;
             display: flex;
             justify-content: space-between;
@@ -43,7 +43,8 @@
         section{
             /* margin-top: 5px; */
             /* border-top: solid rgb(121, 116, 116) 15px; */
-            height:450px;
+            height:440px;
+            /* padding: 10px; */
             display: grid;
             grid-template-columns:3fr 9fr ;
         }
@@ -69,10 +70,10 @@
             margin-bottom: 20px;
             margin-top: 5px;
             padding: 15px;
-            width: 120px;
-            border-radius: 25px;
-            
+            width:120;
+            border-radius: 25px;        
         }
+     
         section nav{
             background-color:rgba(160, 36, 36, 0.582);
             padding: 10px;
@@ -80,16 +81,15 @@
         }
         main{
             background-color:rgba(107, 33, 33, 0.781);
-            font-size: 20px;
-                      
+            /* font-size: 20px; */
+            /* padding: -20px; */
+        
         }
         
         .main-center{
             display: flex;
             justify-content: center;
             align-items: center;
-             /* text-align: center; */
-             /* height: 400px; */
         }
         nav div:hover{
             background-color: rgb(255, 255, 255);
@@ -123,11 +123,14 @@
         }
         article{
             text-align: center;
-            background-color:gray;
-            padding: 5px;
-            color: white;
+            background-color:rgb(107, 101, 101);
+            padding: 2px;
+            color: rgb(253, 253, 253);
             font-family: Arial;
             font-weight: bold;
+            font-size: 14px;
+            border-bottom: 1px solid gray;
+            border-top: 1px solid gray;
         }
         .bi-lightning-fill{
             color: rgb(255, 183, 1);
@@ -137,6 +140,15 @@
         }
         .header-center:active{
             color: white;
+        }
+        .foot-size{
+            font-size: 13px;
+        }
+        body{
+            height: 100vh;
+        }
+        iframe{
+            margin-left: 40px;
         }
     </style>
 </head>
@@ -167,7 +179,6 @@
         <span>HAPPY HOLIDAY DEALS ON EVERYTHINGS</span><span class="bi bi-lightning-fill"></span></article>
     </div>
     <section>
-     
             <nav class="nav-main"> 
                <a href="ShopperHome.html" target="framebody"><div><span class="bi bi-house"></span> Home</div></a>
                <a href="ShopperKids.html" target="framebody"><div><span class="bi bi-person"></span> Kids</div></a>
@@ -177,7 +188,7 @@
                <a href="TheSportsNation.html" target="_parent"><div class="sportsnation"><span class="bi bi-globe-americas"></span> Sports Nation</div></a>
             </nav>
             <main>
-            <iframe name="framebody" src="./ShopperHome.html" width="1180px" height="450px"></iframe>
+            <iframe class="frame" name="framebody" src="./ShopperHome.html" width="1110px" align=center height="435px"></iframe>
             </main>
     </section>
     <!-- <span class="bi bi-award"></span> -->
@@ -185,41 +196,49 @@
         <div class="left-panel-footer">
             <div>
                 <div class="title"><h3>About</h3></div>
+                <div class="foot-size">
                 <div>Contact Us</div>
                 <div>About Us</div>
                 <div>Careers</div>
                 <div>Shopper Stories</div>
-                <div>press</div>
                 <div>Shopper Wholesale</div>
-                <div>Corporate Information</div>
+                </div>
             </div>
             <div>
                 <div class="Help"><h3>Help</h3></div>
+                <div class="foot-size">
                 <div>Contact Us</div>
                 <div>About Us</div>
                 <div>Careers</div>
+                </div>
             </div>
             <div>
                 <div class="Policy"><h3>Policy</h3></div>
-                <div>Contact Us</div>
-                <div>About Us</div>
-                <div>Careers</div>
+                <div class="foot-size">
+                    <div>Contact Us</div>
+                    <div>About Us</div>
+                    <div>Careers</div>
+                    </div>
             </div>            
             <div>
                 <div class="Social"><h3>Social</h3></div>
-                <div>Contact Us</div>
-                <div>About Us</div>
-                <div>Careers</div>
+                <div class="foot-size">
+                    <div>Contact Us</div>
+                    <div>About Us</div>
+                    <div>Careers</div>
+                <div>Corporate Information</div>
+
+                    </div>
             </div>            
         </div>
         <div class="right-panel-footer">
             <div>
                 <div class="Mail"><h3>&nbsp;&nbsp;&nbsp;&nbsp;Mail Us</h3></div>
-                <div>&nbsp;&nbsp;&nbsp;&nbsp;info@theShopperindia.in</div>
+                <div class="foot-size">&nbsp;&nbsp;&nbsp;&nbsp;info@theShopperindia.in</div>
             </div>
             <div>
                 <div class="address"><h3>Registered Office Address</h3></div>
-                <div>Shopper INDIA Pvt Ltd in Badu, Kolkata is known to satisfactorily cater to the demands of its customer base. It stands located at 312, Sree Balaji Business Park, Badu Road, Badu-700128.</div>
+                <div class="foot-size">Shopper INDIA Pvt Ltd in Badu, Kolkata is known to satisfactorily cater to the demands of its customer base. It stands located at 312, Sree Balaji Business Park, Badu Road, Badu-700128.</div>
             </div>
             <div class="sticky">
             <nav class="social">
